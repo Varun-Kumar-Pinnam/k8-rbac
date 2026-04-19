@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aws-cli
+  labels:
+    project: roboshop
+spec:
+  containers:
+  - name: aws-cli
+    image: amazon/aws-cli
+  serviceAccountName: roboshop-secret-reader
+  command: ["sleep","2000"]

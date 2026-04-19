@@ -8,5 +8,5 @@ spec:
   containers:
   - name: aws-cli
     image: amazon/aws-cli
+    command: ["sleep","2000"]
   serviceAccountName: roboshop-secret-reader
-  command: ["sleep","2000"]

@@ -13,7 +13,7 @@ data:
       username: varun      
     - groups:
       - roboshop-admin
-      userarn: aarn:aws:iam::697076424099:user/advi
+      userarn: arn:aws:iam::697076424099:user/advi
       username: advi   
 kind: ConfigMap
 metadata:
